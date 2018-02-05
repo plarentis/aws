@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,7 @@ public class ProdutoDAOTest {
 	
 	@Test
 	@Transactional
+	@Ignore
 	public void deveSomarTodosPrecosPorTipoLivro() {
 		List<Produto> livrosImpressos = ProdutoBuilder
 				.newProduto(TipoPreco.IMPRESSO, BigDecimal.TEN)

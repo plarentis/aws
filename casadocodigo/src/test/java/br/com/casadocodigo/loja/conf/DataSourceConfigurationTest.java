@@ -12,10 +12,10 @@ public class DataSourceConfigurationTest {
 	@Profile("test")
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setUrl("jdbc:mysql://localhost:3306/iworks_test");
+		dataSource.setUsername("iworkseducation");
+		dataSource.setPassword("iworkseducation");
+		dataSource.setUrl("jdbc:mysql://iworks-education-db.c23hampvfwx9.us-east-1.rds.amazonaws.com:3306/iworks_education");
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUsername("root");
-		dataSource.setPassword("root");
 		
 		return dataSource;
 	}
