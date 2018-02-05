@@ -1,10 +1,11 @@
-version: 0.2
- 
+version: 0.1
+
 phases:
   post_build:
     commands:
       - mvn package
+      - mv target/casadocodigo ./
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'target/casadocodigo'
+    - casadocodigo/**/*
+ discard-paths: yes
