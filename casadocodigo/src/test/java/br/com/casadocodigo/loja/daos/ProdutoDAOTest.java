@@ -28,6 +28,7 @@ public class ProdutoDAOTest {
 	@Autowired
 	private ProdutoDAO produtoDao;
 	
+	
 	@Test
 	@Transactional
 	@Ignore
