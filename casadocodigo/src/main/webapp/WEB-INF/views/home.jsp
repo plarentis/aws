@@ -22,7 +22,7 @@
       
     </ul>
 
-    <h2 class="cdc-call">Diferenciais da Casa do Código</h2>
+    <h2 class="cdc-call">Alterei aqui Casa do Código</h2>
    
     <ul id="cdc-diferenciais" class="clearfix">
       <li class="col-left">
