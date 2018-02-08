@@ -10,7 +10,7 @@
 			type="image/ico" />
 		<link href="https://plus.googlecom/108540024862647200608"
 			rel="publisher"/>
-		<title>PetGol o Mito</title>
+		<title>PetGol o Mito Mito</title>
 		<link href="/casadocodigo/resources/css/cssbase-min.css"
 			rel="stylesheet" type="text/css" media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'
