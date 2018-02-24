@@ -14,7 +14,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <title>${titulo } - Casa do Código</title>
+  <title>${titulo } - IWorks Education</title>
   
   <link rel="icon" href="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/favicon.ico?15063963123751285545" type="image/ico"/> 
   <link href="https://plus.googlecom/108540024862647200608" rel="publisher">

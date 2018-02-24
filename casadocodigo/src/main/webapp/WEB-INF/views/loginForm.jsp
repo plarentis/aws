@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Livro de Java, Android, iPhone, Ruby, PHP e muito mais - Casa do Código</title>
+<title>Livro de Java, Android, iPhone, Ruby, PHP e muito mais - IWorks Education</title>
 
 <c:url value="/resources/css" var="cssPath" />
 <link rel="stylesheet" href="${cssPath }/bootstrap.min.css">

@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Livro de Java, Android, iPhone, Ruby, PHP e muito mais - Casa do Código</title>
+<title>Livro de Java, Android, iPhone, Ruby, PHP e muito mais - IWorks Education</title>
 
 <c:url value="/resources/css" var="cssPath" />
 <link rel="stylesheet" href="${cssPath }/bootstrap.min.css">
@@ -31,7 +31,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="${s:mvcUrl('HC#index').build() }">Casa do Código</a>
+	      <a class="navbar-brand" href="${s:mvcUrl('HC#index').build() }">IWorks Education</a>
 	    </div>
 	    <div id="navbar" class="collapse navbar-collapse">
 	      <ul class="nav navbar-nav">
