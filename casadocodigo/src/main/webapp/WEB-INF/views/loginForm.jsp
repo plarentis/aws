@@ -24,7 +24,7 @@
 
 	<div class="container">
 	
-	<h1>Login da Casa do Código</h1>
+	<h1>IWorks Education - Back Office da Loja</h1>
 	
 	<form:form servletRelativeAction="/login" method="POST">
 		<div class="form-group">

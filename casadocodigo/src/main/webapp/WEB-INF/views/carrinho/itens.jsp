@@ -63,9 +63,7 @@
 	          	<form:form 
 	          		action="${s:mvcUrl('CCC#remover').arg(0,item.produto.id).arg(1,item.tipoPreco).build() }" 
 	          			method="post">
-	          		<input type="image" 
-	          			src="http:////cdn.shopify.com/s/files/1/0155/7645/t/177/assets/excluir.png?1575580795780530083" 
-	          			alt="Excluir" title="Excluir" />
+	          		Excluir
 	          	</form:form>
 	          </td>
 	        </tr>

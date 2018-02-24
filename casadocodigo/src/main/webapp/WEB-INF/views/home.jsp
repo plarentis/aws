@@ -19,40 +19,6 @@
           </a>
         </li>
       </c:forEach>
-      
-    </ul>
-
-    <h2 class="cdc-call">Uma linda alteração Casa do Código</h2>
-   
-    <ul id="cdc-diferenciais" class="clearfix">
-      <li class="col-left">
-        <h3>E-books sem DRM. Leia onde quiser</h3>
-        <p>
-          <span class="sprite" id="sprite-drm"></span>
-          Nossos e-books não possuem DRM, ou seja, você pode ler em qualquer computador, tablet e smartphone.
-        </p>
-      </li>
-      <li class="col-right">
-        <h3>Autores de renome na comunidade</h3>
-        <p>
-          <span class="sprite" id="sprite-renome"></span>
-          Autores que participam ativamente na comunidade com Open Source, listas de discussão, grupos e mais.
-        </p>
-      </li>
-      <li class="col-left">
-        <h3>Receba atualizações dos e-books</h3>
-        <p>
-          <span class="sprite" id="sprite-atualizacoes"></span>
-          Quando você compra um e-book, automaticamente tem direito às atualizações e correções dele.
-        </p>
-      </li>
-      <li class="col-right">
-        <h3>Livros com curadoria da Caelum</h3>
-        <p>
-          <span class="sprite" id="sprite-caelum"></span>
-          Desenvolvedores experientes que avaliam e revisam os livros constantemente.
-        </p>
-      </li>
     </ul>
   </section>
 

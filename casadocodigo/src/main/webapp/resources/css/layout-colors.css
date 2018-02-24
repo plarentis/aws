@@ -3,28 +3,27 @@ html {
 }
 
 #logo {
-  background: url('/casadocodigo/resources/imagens/cdc-logo.svg') no-repeat;
-  background-size: 210px 61px;
+  background: url('/casadocodigo/resources/imagens/iworks_logo_1.jpg') no-repeat;
+  background-size: 164px 100px;
   background-position: center;
   margin: 0;
   display: block;
-  width: 210px;
-  height: 66px;
+  width: 164px;
+  height: 100px;
   padding: 11px 0;
 }
 
 #logo_2 {
-  background: url('/casadocodigo/resources/imagens/cdc-logo.svg') no-repeat;
-  background-size: 210px 61px;
+  background: url('/casadocodigo/resources/imagens/iworks_logo_2.jpg') no-repeat;
+  background-size: 646px 224px;
   background-position: center;
   margin: 0;
   display: block;
-  height: 130px;
+  height: 224px;
   padding: 11px 0;
 }
 
 #layout-header {
-  background: #000;
 }
 
 #submit-product-newsletter{

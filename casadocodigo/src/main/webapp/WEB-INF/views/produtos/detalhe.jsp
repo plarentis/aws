@@ -53,7 +53,6 @@
 <div class="container">
   
   <section class="summary">
-    <h3>E muito mais... <a href='/pages/sumario-java8'>veja o sumário</a>.</h3>
   </section>
   
   
@@ -65,7 +64,6 @@
     <p>Data de publicação: <span class="publishedAt">
     		<fmt:formatDate pattern="dd/MM/yyyy" value="${produto.dataLancamento.time }" />
     		</span></p>
-    <p>Encontrou um erro? <a href='/submissao-errata' target='_blank'>Submeta uma errata</a></p>
   </section>
 </div>
 
