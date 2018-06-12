@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="iworks-api_main" target="1.8" />
+      <module name="iworks-api_test" target="1.8" />
+      <module name="iworks-persistence_main" target="1.8" />
+      <module name="iworks-persistence_test" target="1.8" />
+      <module name="teste_main" target="1.8" />
+      <module name="teste_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
