@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":persistence-hero" external.linked.project.path="$MODULE_DIR$/../../../persistence-hero" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="iworks-serverless-justiceleague" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../persistence-hero">
+      <excludeFolder url="file://$MODULE_DIR$/../../../persistence-hero/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../persistence-hero/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../persistence-hero/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

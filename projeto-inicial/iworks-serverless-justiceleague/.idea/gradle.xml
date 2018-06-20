@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/function-create-hero" />
+            <option value="$PROJECT_DIR$/function-list-hero" />
+            <option value="$PROJECT_DIR$/function-remove-hero" />
+            <option value="$PROJECT_DIR$/function-update-hero" />
+            <option value="$PROJECT_DIR$/persistence-hero" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

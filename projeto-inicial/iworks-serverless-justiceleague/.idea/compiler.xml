@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="function-create-hero_main" target="1.8" />
+      <module name="function-create-hero_test" target="1.8" />
+      <module name="function-list-hero_main" target="1.8" />
+      <module name="function-list-hero_test" target="1.8" />
+      <module name="function-remove-hero_main" target="1.8" />
+      <module name="function-remove-hero_test" target="1.8" />
+      <module name="function-update-hero_main" target="1.8" />
+      <module name="function-update-hero_test" target="1.8" />
+      <module name="persistence-hero_main" target="1.8" />
+      <module name="persistence-hero_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
