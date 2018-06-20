@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":function-remove-hero" external.linked.project.path="$MODULE_DIR$/../../../function-remove-hero" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="iworks-serverless-justiceleague" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../function-remove-hero">
+      <excludeFolder url="file://$MODULE_DIR$/../../../function-remove-hero/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../function-remove-hero/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../function-remove-hero/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

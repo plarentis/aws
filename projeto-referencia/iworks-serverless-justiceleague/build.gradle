@@ -1,0 +1,54 @@
+subprojects {
+    version = '1.0'
+    
+    apply plugin : 'java'
+    
+    repositories {
+        mavenCentral()
+    }
+    
+    dependencies {
+    	compile group: 'com.amazonaws', name: 'aws-lambda-java-core', version: '1.1.0'
+    	compile group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb', version: '1.9.0'    	
+	}
+	
+	jar {
+ 		destinationDir = file("$rootDir/build")
+	    from {
+	        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+	    }
+	    jar
+	}
+}
+
+project(':function-create-hero') {
+	dependencies {
+    	compile project(':persistence-hero') 
+	}	
+}
+
+project(':function-update-hero') {
+	dependencies {
+    	compile project(':persistence-hero') 
+	}
+}
+
+project(':function-list-hero') {
+	dependencies {
+    	compile project(':persistence-hero') 
+	}	
+}
+
+project(':function-remove-hero') {
+	dependencies {
+    	compile project(':persistence-hero') 
+	}
+}
+
+project(':persistence-hero') {
+   jar {
+	   from('src/main/java') {
+	      include 'com/iworks/justiceleague/repository/*.properties'
+	   }
+   }
+}
