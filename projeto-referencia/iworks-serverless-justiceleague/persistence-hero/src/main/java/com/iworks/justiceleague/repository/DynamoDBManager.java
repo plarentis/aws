@@ -1,9 +1,6 @@
 package com.iworks.justiceleague.repository;
 
-import java.io.InputStream;
-
 import com.amazonaws.auth.AWSCredentials;
-import com.amazonaws.auth.PropertiesCredentials;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
@@ -35,21 +32,12 @@ public class DynamoDBManager {
     }
 
     public static DynamoDBMapper mapper () {
-
         DynamoDBManager manager = instance();
         return manager.mapper;
     }
 
     private static AWSCredentials getCredentials () {
-        AWSCredentials awsCredentials = null;
-        try {
-            InputStream inputStream = DynamoDBManager.class.getResourceAsStream("AwsCredentials.properties");
-            awsCredentials = new PropertiesCredentials(inputStream);
-        } catch (Exception e) {
-            System.out.println("Erro ao realizar login AWS");
-        }
-
-        return awsCredentials;
+        return new AWSCredentialsImpl();
     }
 
 }
