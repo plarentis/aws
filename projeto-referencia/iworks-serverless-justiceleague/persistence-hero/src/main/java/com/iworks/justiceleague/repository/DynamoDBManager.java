@@ -1,6 +1,5 @@
 package com.iworks.justiceleague.repository;
 
-import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
@@ -14,7 +13,7 @@ public class DynamoDBManager {
 
     private DynamoDBManager () {
 
-        AmazonDynamoDBClient client = new AmazonDynamoDBClient(getCredentials());
+        AmazonDynamoDBClient client = new AmazonDynamoDBClient();
         client.setRegion(Region.getRegion(Regions.US_EAST_1));
         mapper = new DynamoDBMapper(client);
     }
@@ -34,10 +33,6 @@ public class DynamoDBManager {
     public static DynamoDBMapper mapper () {
         DynamoDBManager manager = instance();
         return manager.mapper;
-    }
-
-    private static AWSCredentials getCredentials () {
-        return new AWSCredentialsImpl();
     }
 
 }
